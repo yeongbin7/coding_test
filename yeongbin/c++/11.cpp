@@ -1,4 +1,4 @@
-// 제출 내역 - 프로그래머스
+// 의상 - 프로그래머스
 
 #include <string>
 #include <vector>
