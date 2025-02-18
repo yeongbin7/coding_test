@@ -1,4 +1,4 @@
-// 프로그래머스 - 게임 맵 최단거리
+// 게임 맵 최단거리 - 프로그래머스
 
 #include<vector>
 #include<deque>
