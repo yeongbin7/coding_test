@@ -36,7 +36,7 @@ public class P1926 {
             for (int j = 0; j < M; j++) {
                 if (!visited[i][j] && map[i][j] == 1) {
                     count++;
-                    size = Math.max(size, dfs(i, j));
+                    size = Math.max(size, bfs(i, j));
                 }
             }
         }
@@ -45,7 +45,7 @@ public class P1926 {
         System.out.println(size);
     }
 
-    private static int dfs(int startX, int startY) {
+    private static int bfs(int startX, int startY) {
         visited[startX][startY] = true;
         Queue<int[]> queue = new LinkedList<>();
         queue.offer(new int[]{startX, startY});
