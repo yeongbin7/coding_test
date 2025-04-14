@@ -15,12 +15,14 @@ public class P2447 {
         }
 
         recursive(N, 0, 0);
+        StringBuilder sb = new StringBuilder();
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++) {
-                System.out.print(arr[i][j]);
+                sb.append(arr[i][j]);
             }
-            System.out.println();
+            sb.append('\n');
         }
+        System.out.print(sb);
     }
 
     static void recursive(int size, int row, int col) {
