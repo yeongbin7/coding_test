@@ -3,6 +3,7 @@
         "vector": "cpp",
         "string": "cpp",
         "queue": "cpp",
-        "deque": "cpp"
+        "deque": "cpp",
+        "set": "cpp"
     }
 }
